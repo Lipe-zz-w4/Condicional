@@ -32,6 +32,9 @@ namespace Condicional
             if (usuario == txtUsuario.Text && senha == txtSenha.Text)
             {
                 MessageBox.Show("Bem vindo ao sistema, " + usuario);
+                frmImagem imagem = new frmImagem();
+                imagem.Show();
+
             }
             else
             {
