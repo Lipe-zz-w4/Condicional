@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TEMP.FATECTQ0.009\\source\\repos\\Condicional\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17D82D4F-D7A8-47D6-BC3D-51DE7253B94F}|Condicional\\Condicional.csproj|c:\\users\\temp.fatectq0.009\\source\\repos\\condicional\\condicional\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17D82D4F-D7A8-47D6-BC3D-51DE7253B94F}|Condicional\\Condicional.csproj|solutionrelative:condicional\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D82D4F-D7A8-47D6-BC3D-51DE7253B94F}|Condicional\\Condicional.csproj|c:\\users\\temp.fatectq0.009\\source\\repos\\condicional\\condicional\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D82D4F-D7A8-47D6-BC3D-51DE7253B94F}|Condicional\\Condicional.csproj|solutionrelative:condicional\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\TEMP.FATECTQ0.009\\source\\repos\\Condicional\\Condicional\\Form1.cs",
+              "RelativeDocumentMoniker": "Condicional\\Form1.cs",
+              "ToolTip": "C:\\Users\\TEMP.FATECTQ0.009\\source\\repos\\Condicional\\Condicional\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Condicional\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T14:44:21.448Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\TEMP.FATECTQ0.009\\source\\repos\\Condicional\\Condicional\\Form1.cs",
+              "RelativeDocumentMoniker": "Condicional\\Form1.cs",
+              "ToolTip": "C:\\Users\\TEMP.FATECTQ0.009\\source\\repos\\Condicional\\Condicional\\Form1.cs",
+              "RelativeToolTip": "Condicional\\Form1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAlwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T14:43:43.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
