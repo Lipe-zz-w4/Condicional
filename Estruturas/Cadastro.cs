@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Condicional
+namespace Estruturas
 {
-    public partial class frmImagem : Form
+    public partial class frmCadastro : Form
     {
-        public frmImagem()
+        public frmCadastro()
         {
             InitializeComponent();
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
