@@ -45,19 +45,46 @@ namespace Estruturas
             Application.Exit();
         }
 
-        private void btnWhile_Click(object sender, EventArgs e)
+        private void btnWhile_Click(object sender,EventArgs e)
         {
             // Laço de repetição que testa a condição no início
-            int i = 9;
-            int num = 0;
+            int tamanhox = 10;
+            int tamanhoy = 5;
             lsbMostra.Items.Clear();
 
+            char[,] matriz = new char[tamanhox, tamanhoy];
             // while (condição for verdadeira) {faça}
 
-            while (num <= 10)
+            int y = 0;
+            while (y < tamanhoy)
             {
-                lsbMostra.Items.Add(i + "x" + num + " = " + num*i);
-                num++;
+                int x = 0;
+                while (x < tamanhox) {
+                    
+                    bool borda = x == 0 || y == 0 || x == tamanhox - 1|| y == tamanhoy - 1;
+
+                    matriz[x, y] = borda ? '#' : 'o';
+
+                    x++;
+                }
+                y++;
+
+            }
+
+            // escrever a string
+
+            y = 0;
+            while (y < tamanhoy) {
+                StringBuilder linha = new StringBuilder();
+
+                int x = 0;
+                while (x < tamanhox) {
+                    linha.Append(matriz[x, y]);
+                    x++;
+                }
+                y++;
+
+                lsbMostra.Items.Add(linha);
             }
         }
 
@@ -81,13 +108,15 @@ namespace Estruturas
 
             // utilização de matriz para desenhar um quadrado
 
-            int tamanho = 5;
-            char[,] matriz = new char[tamanho, tamanho];
+            int tamanhox = 10;
+            int tamanhoy = 5;
+            char[,] matriz = new char[tamanhox, tamanhoy];
             // [,] define a variavel como uma matriz.
 
             // utilizar duas funcoes FOR, uma checando a coordenada X e outra a coordenada Y
-            for (int x = 0; x < tamanho; x++) { 
-                for (int y = 0; y < tamanho; y++) {
+
+            for (int y = 0; y < tamanhoy; y++) { 
+                for (int x = 0; x < tamanhox; x++) {
 
                     matriz[x, y] = '#';
 
@@ -100,16 +129,18 @@ namespace Estruturas
             Usar a função string builder
             */
 
-            for (int x = 0; x < tamanho; x++)
+            for (int y = 0; y < tamanhoy; y++)
             {
-                // criar linha por linha (x) para imprimir o quadrado
+                // criar linha por linha (y) para imprimir o quadrado
                 StringBuilder linha = new StringBuilder();
 
-                for (int y = 0; y < tamanho; y++)
+                for (int x = 0; x < tamanhox; x++)
                 {
                     linha.Append(matriz[x, y]);
 
                 }
+
+                lsbMostra.Items.Add(linha);
             }
 
 
