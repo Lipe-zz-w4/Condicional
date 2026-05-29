@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace Estruturas
 {
@@ -78,12 +79,43 @@ namespace Estruturas
         {
             lsbMostra.Items.Clear();
 
-            int i = 7;
-            // for (valor inicial, valor final, incremento) {faça}
-            for (int a = 0; a <= 10; a++)
-            {
-                lsbMostra.Items.Add(i + "x" + a + " = " + a * i);
+            // utilização de matriz para desenhar um quadrado
+
+            int tamanho = 5;
+            char[,] matriz = new char[tamanho, tamanho];
+            // [,] define a variavel como uma matriz.
+
+            // utilizar duas funcoes FOR, uma checando a coordenada X e outra a coordenada Y
+            for (int x = 0; x < tamanho; x++) { 
+                for (int y = 0; y < tamanho; y++) {
+
+                    matriz[x, y] = '#';
+
+                }
             }
+
+            /*
+             para imprimir um resultado em uma lista, é necessario criar uma
+            string.
+            Usar a função string builder
+            */
+
+            for (int x = 0; x < tamanho; x++)
+            {
+                // criar linha por linha (x) para imprimir o quadrado
+                StringBuilder linha = new StringBuilder();
+
+                for (int y = 0; y < tamanho; y++)
+                {
+                    linha.Append(matriz[x, y]);
+
+                }
+            }
+
+
+
+            //
+
         }
 
         private void btnForEach_Click(object sender, EventArgs e)
